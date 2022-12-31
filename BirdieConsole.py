@@ -17,7 +17,7 @@ def tweeter():
   if tweet == "exit":
     exit()
   api.update_status(tweet)
-  print("✨: " + tweet)
+  print("✨ Tweet Sent ✨")
   tweeter()
 
 def main():
